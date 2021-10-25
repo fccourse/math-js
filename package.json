@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "babel src -d dist --source-maps --copy-files",
     "test": "jest --coverage"
   },
   "author": "Murilo Lacerda",
