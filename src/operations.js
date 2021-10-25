@@ -1,17 +1,9 @@
-const sum = (a, b) => {
-  return a + b;
-}
+const sum = (a, b) => a + b;
 
-const sub = (a, b) => {
-  return a - b;
-}
+const sub = (a, b) => a - b;
 
-const mul = (a, b) => {
-  return a * b;
-}
+const mul = (a, b) => a * b;
 
-const div = (a, b) => {
-  return a / b;
-}
+const div = (a, b) => a / b;
 
 export { sum, sub, mul, div };
